@@ -75,7 +75,7 @@ function addMoneyById(listAccount, id, amount) {
 
       if (account.balance === 0) {
         dem++;
-        account.balance += amount * 2;
+        account.balance += amount * 3;
       } else {
         account.balance += amount;
       }
@@ -143,7 +143,7 @@ function main() {
 
   console.log('-----------BÀI 2------------');
   setVIP(listAccounts);
-  addMoneyById(listAccounts, 20, 100000);
+  addMoneyById(listAccounts, 13, 100000);
   activeAccount(listAccounts);
 }
 
