@@ -75,7 +75,7 @@ function addMoneyById(listAccount, id, amount) {
 
       if (account.balance === 0) {
         dem++;
-        account.balance += amount * 3;
+        account.balance += amount * 2;
       } else {
         account.balance += amount;
       }
